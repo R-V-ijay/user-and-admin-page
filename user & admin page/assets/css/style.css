@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+
+* {
+  font-family: "Roboto Slab";
+}
+.loginPage {
+  height: 100vh;
+  background-image: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+}
+.loginPage form {
+  box-shadow: 2px 2px 15px 2px #00000057;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);
+}
+input:focus {
+  outline: none !important;
+  /* border: none !important; */
+  box-shadow: none !important;
+}
+input {
+  border: none;
+}
+h3 {
+  color: #5b82c5;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  background-color: #fbc2eb;
+  text-shadow: 3px 3px 5px #0000005a;
+}
+.btn {
+  background-color: #5b82c5;
+  color: white;
+}
+.btn:hover,
+.btn:active,
+.btn:focus-visible {
+  background-color: #5b82c5 !important;
+  color: white !important;
+}

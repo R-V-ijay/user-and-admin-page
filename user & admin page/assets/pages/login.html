@@ -1,0 +1,26 @@
+<div class="row d-flex justify-content-center align-items-center loginPage">
+  <form class="col-md-4 col-sm-6 text-center p-0 m-0">
+    <h3 class="mb-4 p-3 fs-2 fw-bold">Log In</h3>
+    <div class="mb-3 px-4">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Enter User Name"
+        ng-model="login.nameInput"
+       
+      />
+    </div>
+    <div class="mb-3 px-4">
+      <input
+        type="password"
+        class="form-control"
+        placeholder="Password"
+        ng-model="login.passwordInput"
+       
+      />
+    </div>
+    <a type="submit" class="btn mb-4" ng-click="login.submiteBtn($event)"
+      >Submit</a
+    >
+  </form>
+</div>
